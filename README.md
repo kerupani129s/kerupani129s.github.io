@@ -1,6 +1,6 @@
 # ケルパニ＠猫 (@kerupani129s) のウェブサイト
 
-[ケルパニ＠猫 (@kerupani129s) のウェブサイト](https://kerupani129s.github.io/)
+[ホーム | ケルパニ＠猫 (@kerupani129s) のウェブサイト](https://kerupani129s.github.io/)
 
 ## ライセンス
 
