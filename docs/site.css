@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	font-family: 'Kosugi Maru', sans-serif;
+	line-height: 1.5;
+	color: #055;
+	background-color: #c0ffff;
+}
+
+a {
+	text-decoration: none;
+	color: #00c0ff;
+}
+
+a[href]:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin: 8px 0 -8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #00ffff;
+}
+
+p {
+	margin: 16px 0;
+}
+
+.site-title {
+	padding: 0 12px;
+	text-align: center;
+}
+
+.site-title span {
+	display: inline-block;
+}
+
+.site-main {
+	margin: -8px auto;
+	width: 752px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.site-main section {
+	box-sizing: border-box;
+	width: 360px;
+	margin: 8px;
+	padding: 0 16px;
+	align-self: flex-start;
+	background-color: #ffffff;
+	border-radius: 12px;
+}
+
+@media screen and (max-width: 799px) {
+	.site-main {
+		width: 100%;
+		max-width: 360px;
+	}
+
+	.site-main section {
+		width: 100%;
+		margin: 8px 0;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.site-main section {
+		border-radius: 0;
+	}
+}
+
+.site-footer {
+	padding: 0 12px;
+	text-align: center;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
