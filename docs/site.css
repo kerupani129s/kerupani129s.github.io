@@ -21,6 +21,10 @@ h2 {
 	border-bottom: 1px solid #00ffff;
 }
 
+h2 a {
+	color: #055;
+}
+
 p {
 	margin: 16px 0;
 }
