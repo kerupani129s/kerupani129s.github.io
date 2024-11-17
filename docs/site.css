@@ -16,7 +16,7 @@ a[href]:hover {
 }
 
 h1 a {
-	color: #055;
+	color: currentcolor;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 }
 
 h2 a {
-	color: #055;
+	color: currentcolor;
 }
 
 p {
